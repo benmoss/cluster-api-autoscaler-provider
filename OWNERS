@@ -1,6 +1,11 @@
-# See the OWNERS docs at https://go.k8s.io/owners
+# See the OWNERS docs at https://go.k8s.io/owners for information on OWNERS files.
+# See the OWNERS_ALIASES file at https://github.com/kubernetes-sigs/cluster-api/blob/master/OWNERS_ALIASES for a list of members for each alias. 
 
 approvers:
-  # TODO: in your repo created from this template, you should replace the
-  # github-admin-team with a list of project owners, see the doc linked above.
-  - github-admin-team
+  - sig-cluster-lifecycle-leads
+  - cluster-api-admins
+  - cluster-api-maintainers
+
+reviewers:
+  - cluster-api-maintainers
+  - cluster-api-reviewers
