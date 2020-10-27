@@ -123,8 +123,8 @@ github.com/aws/aws-sdk-go v1.30.4/go.mod h1:5zCpMtNQVjRREroY7sYe8lOMRSxkhG6MZveU
 github.com/aws/aws-sdk-go v1.30.5/go.mod h1:5zCpMtNQVjRREroY7sYe8lOMRSxkhG6MZveU8YkpAk0=
 github.com/aws/aws-sdk-go v1.31.12/go.mod h1:5zCpMtNQVjRREroY7sYe8lOMRSxkhG6MZveU8YkpAk0=
 github.com/bazelbuild/buildtools v0.0.0-20190917191645-69366ca98f89/go.mod h1:5JP0TXzWDHXv8qvxRC4InIazwdyDseBDbzESUMKk1yU=
-github.com/benmoss/autoscaler-tests v0.0.0-20201026211222-e65fb32c4ea8 h1:MC+ov8qKhwiuFtUhkxF1+Bapy0OvvglB65axBbYtgk0=
-github.com/benmoss/autoscaler-tests v0.0.0-20201026211222-e65fb32c4ea8/go.mod h1:juGORFMGiPaMPqSMu9qjgSPa0JVPkzplUHe/tWdYo7k=
+github.com/benmoss/autoscaler-tests v0.0.0-20201027200226-7ba7e3ab7059 h1:/H2urj3S899kYA0dgdS9uzp4+1AhbPz0cEnn/1Xfo9Q=
+github.com/benmoss/autoscaler-tests v0.0.0-20201027200226-7ba7e3ab7059/go.mod h1:JOP7jEElxavc0NhR148S3DjCQEuUE4tXQLQ6I/qGwRY=
 github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
