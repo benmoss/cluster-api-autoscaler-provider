@@ -30,7 +30,7 @@ replace (
 )
 
 require (
-	github.com/benmoss/autoscaler-tests v0.0.0-20201027200226-7ba7e3ab7059
+	github.com/benmoss/autoscaler-tests v0.0.0-20201027211942-e3aff16b3c4d
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/google/go-cmp v0.4.1 // indirect
 	github.com/imdario/mergo v0.3.9 // indirect

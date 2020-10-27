@@ -3,9 +3,9 @@ package autoscaler
 import (
 	"testing"
 
-	"github.com/benmoss/autoscaler-tests/test/integration"
+	autoscaler "github.com/benmoss/autoscaler-tests/framework"
 )
 
 func TestAutoscaling(t *testing.T) {
-	integration.ClusterAutoscalerSuite(t, &Provider{})
+	autoscaler.ClusterAutoscalerSuite(t, &Provider{})
 }
