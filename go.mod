@@ -1,4 +1,4 @@
-module sigs.k8s.io/cluster-api/test/autoscaler
+module github.com/benmoss/cluster-api-autoscaler-provider
 
 go 1.15
 
@@ -27,18 +27,23 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.19.2
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.19.2
 	k8s.io/sample-controller => k8s.io/sample-controller v0.19.2
-	sigs.k8s.io/cluster-api => ../..
 )
 
-replace github.com/benmoss/autoscaler-tests => ../../../autoscaler-tests
-
 require (
-	github.com/benmoss/autoscaler-tests v0.0.0-20201013182558-6e5c0c3aef82
+	github.com/benmoss/autoscaler-tests v0.0.0-20201026211222-e65fb32c4ea8
+	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
+	github.com/google/go-cmp v0.4.1 // indirect
+	github.com/imdario/mergo v0.3.9 // indirect
+	github.com/octago/sflags v0.2.0
 	github.com/onsi/gomega v1.10.1 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/stretchr/testify v1.5.1
+	google.golang.org/appengine v1.6.6 // indirect
 	k8s.io/api v0.19.2
 	k8s.io/apimachinery v0.19.2
 	k8s.io/client-go v9.0.0+incompatible
+	k8s.io/klog v1.0.0
 	k8s.io/kubernetes v1.19.3
 	k8s.io/utils v0.0.0-20201015054608-420da100c033
+	sigs.k8s.io/kubetest2 v0.0.0-20201023214501-6beb03da0855
 )

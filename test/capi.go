@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/benmoss/autoscaler-tests/test"
+	"github.com/benmoss/autoscaler-tests/test/integration"
 	"github.com/stretchr/testify/require"
 	appsv1 "k8s.io/api/apps/v1"
 	autoscalingapi "k8s.io/api/autoscaling/v1"
@@ -45,7 +45,7 @@ type Provider struct {
 	workloadKubeconfig      clientcmdapi.Config
 }
 
-func (p *Provider) FrameworkBeforeEach(f *test.Framework) {
+func (p *Provider) FrameworkBeforeEach(f *integration.Framework) {
 	var (
 		managementConfig *rest.Config
 		err              error
@@ -101,7 +101,7 @@ func (p *Provider) FrameworkBeforeEach(f *test.Framework) {
 	p.namespace = ns
 }
 
-func (p *Provider) FrameworkAfterEach(f *test.Framework) {
+func (p *Provider) FrameworkAfterEach(f *integration.Framework) {
 	f.T.Log("AfterEach")
 	if p.namespace != nil {
 		f.T.Logf("AfterEach Deleting namespace %s", p.namespace.Name)
@@ -303,4 +303,4 @@ func (p *Provider) DisableAutoscaler(nodeGroup string) error {
 	return nil
 }
 
-var _ = test.Provider(&Provider{})
+var _ = integration.Provider(&Provider{})
